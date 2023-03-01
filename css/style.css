@@ -1,0 +1,132 @@
+/* body */
+body {
+    background-color: #FFC3C3;
+    height: 1080px;
+}
+/* section */
+.container {
+    background-color: #FFFFFF;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 150px;
+    border: 1px solid #E7E6EB;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+}
+.image-container {
+    width: 400px;
+    height: 295px;
+}
+.description {
+    padding: 24px 40px 40px 40px;
+}
+.cost {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #333333;
+    margin-bottom: 16px;
+}
+.product-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;    
+    color: #333333;
+    margin-bottom: 8px;
+}
+.product-description {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    margin-bottom: 24px;
+}
+.choose-color-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+    margin-bottom: 16px;
+}
+.choose-color-container {
+    display: flex;
+    width: 156px;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+.color {
+    width: 40px;
+    height: 40px;
+    border: 4px solid #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+}
+.red {
+    background-color: #EE4444;
+}
+.sky-blue {
+    background-color: #3C81F6;
+}
+.black{
+    background-color: #000000;
+}
+.black-border {
+    border: 4px solid #000000;
+}
+.add-to-card-container {
+    width: 320px;
+    height: 55px;
+    background: #FBBF23;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add-to-card {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;    
+    color: #333333;
+}
+.buy-now-container {
+    width: 320px;
+    height: 55px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    border: 1px solid #E7E6EB;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.08);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+}
+.buy-now {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #333333;
+}
+.read-reviews {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #61A5FA;
+}
